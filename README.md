@@ -37,3 +37,8 @@ GET:Get all issued books with fine
     >>Basic (3 months)
     >>Standard(6 months)
     >>Premium(12 months)
+
+MVC Architecture
+    >>Model (Sturcture of MongoDb Collection/Schema)
+    >>View (React)
+    >>Controllers (Brain of our routes)

@@ -2,6 +2,8 @@ const express=require("express");
 const {books} = require("../data/books.json");
 const {users} = require("../data/users.json");
 
+const {UserModel,BookModel }= require("../models");
+const { getAllBooks } = require("../controllers/book-controller");
 const router = express.Router();
 
 /**
@@ -11,12 +13,14 @@ const router = express.Router();
  * Access:Public
  * Parameters:None 
  */
-router.get("/",(req,res)=>{
-    res.status(200).json({
-        success:true,
-        data:books
-    })
-})
+// router.get("/",(req,res)=>{
+//     res.status(200).json({
+//         success:true,
+//         data:books
+//     })
+// })
+
+router.get("/",getAllBooks)
 
 /**
  * Route: /books/:id
