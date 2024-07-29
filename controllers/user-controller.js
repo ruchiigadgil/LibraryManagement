@@ -1,4 +1,5 @@
 const {UserModel,BookModel }= require("../models");
+//Random message
 
 exports.getAllUsers = async(req,res) =>{
     const users = await UserModel.find();
