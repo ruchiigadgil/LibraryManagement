@@ -43,4 +43,11 @@ MVC Architecture
     >>View (React)
     >>Controllers (Brain of our routes)
 
+React?
+    >>SPA(Single Page Application) => Your entire appln contains only single HTML Page
+    >>Virtual DOM
+    >>Components
+        >>Class Compenent (Old)
+        >>Function Component 
+
     >>>>Thank you
